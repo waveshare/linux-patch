@@ -101,6 +101,7 @@
 		       <&vcm>, "VANA-supply:0=", <&cam0_reg>;
 		vcm = <&vcm>, "status=okay",
 		      <&cam_node>,"lens-focus:0=", <&vcm>;
+		aw86017 = <&vcm>, "compatible=awinic,aw86017";
 		clock-frequency = <&cam_clk>, "clock-frequency:0";
 		link-frequency = <&cam_endpoint>,"link-frequencies#0";
 		clk-37125 = <&cam_endpoint>,"link-frequencies#0=445500000",
